@@ -1,3 +1,4 @@
+const ffmpeg = require('ffmpeg-static');
 const { Client, GatewayIntentBits } = require('discord.js');
 const { joinVoiceChannel, createAudioPlayer, createAudioResource, AudioPlayerStatus, VoiceConnectionStatus } = require('@discordjs/voice');
 const ytdl = require('@distube/ytdl-core');
